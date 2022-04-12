@@ -6,7 +6,6 @@ import Topframe from "../components/topframe";
 import styles from "../styles/Home.module.css";
 
 export default function Home({ allData }) {
-  console.log(allData);
   return (
     <div className={styles.container}>
       <Head>
