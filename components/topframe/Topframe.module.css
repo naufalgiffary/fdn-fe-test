@@ -1,0 +1,26 @@
+.container {
+  background-color: lightgray;
+  border: 1px solid black;
+  width: 970px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 2em 0;
+}
+
+.text {
+  font-size: 24px;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 80vw;
+    height: 5vh;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
